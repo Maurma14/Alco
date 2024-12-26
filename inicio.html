@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>http://Alhoholemia.com </title>
+    <link rel="icon" type="image/png" href="./Imagenes/Alcolemia_lob (2).png">
+    <link rel="icon" type="image/x-icon" href="ruta/a/tu/favicon.ico">
+</head>
+<body>
+<center><img src="Imagenes/Alcolemia_lob.png" id="logo"></center>
+<h5 id="titulo">Bienvenido a tu progama de proteccion de tránsito seguro</h5>
+    <form action="Verificar.php" method="post">
+        <fieldset id="idi">
+<legend for="Idioma" id="Idi"><strong>Idioma - <em>Lenguage</em></strong></legend>
+           <select id="Idioma">
+                <option value="Español">Español</option>
+                <option value="English">English</option>
+                <option value="Français">Français</option>
+                <option value="Português">Português</option>
+                <option value="中國人">中國人</option>
+                <option value="Türkçe">Türkçe</option>
+                <option value="Русский">Русский</option>
+                <option value="Italiano">Italiano</option>
+                <option value="한국인">한국인</option>
+                <option value="Latinus">Latinus</option>
+            </select>
+</fieldset>
+<br>
+    <fieldset id="se">
+
+        <legend id="Iniciar"><strong>Iniciar sesión</strong></legend>
+    <table>
+    <tr>
+        <th>
+        <td><label for="Us" id="User">Usuario</label></td>
+        <td><input type="text" id="Us" name="InUs" required></td>
+        </th>
+    </tr>
+    <tr>
+        <th>
+        <td><label for="Con" id="pass">Contraseña</label></td>
+        <td><input type="password" id="Con" name="Pass" required></td>
+        </th>
+    </tr>
+
+    </table>
+
+    <img src="Imagenes/CAPTCHA.png" id="CAPTCHA">
+    <hr>
+        <input type="submit" value="Continuar" id="boton">
+    </hr>
+    </fieldset>
+    </form> 
+    <center><table>
+        <th>
+    <td><h6 id="No">No tienes cuenta? </h6></td>
+    <td><h6>|</h6></td> 
+    <td><h6><a href="./Acount.html" id="Create">Registrate</a></h6></td>
+        </th>
+    </table></center>
+    <script src="idioma.js"></script>    
+    </body>
+</html>

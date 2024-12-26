@@ -1,0 +1,158 @@
+body { /*Cuerpo*/
+    background-color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    align-items: auto;
+    
+}
+
+#logo {/*logo*/
+    height: 20vh, auto;
+    width: 8vh;
+    display: block;
+    margin: auto;
+   
+}
+
+h5 {/*Mensaje "Registrate ...."*/
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+form{/*formulario*/
+    line-height: 30px;
+    height: 80%;
+    line-height: 30px;
+    border-color: black;
+}
+
+#se{/*Fieldset de Cuenta*/
+
+    position: relative;
+    width: min-content;
+    margin: 1% auto;
+    height: auto;
+    background: linear-gradient(to top, rgb(136, 161, 243), white);
+    border-radius: 10px;
+    border-color: rgb(61, 95, 245);
+    border-width: 2px;
+    border-style: solid;
+}
+
+#Iniciar{/*legend Idioma*/
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(61, 95, 245);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 12px;
+}
+
+#Us{/*Input Usuario*/
+
+    width: 120px;
+    height: 15px;
+    border-color: rgb(61, 95, 245);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 0px 0px 0px 20px;
+}
+
+#Cedula{/*Input Contraseña*/
+
+    width: 100px;
+    height: 15px;
+    border-color: rgb(61, 95, 245);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 0px 0px 0px 15px;
+    text-align: center;
+}
+
+#FdN{/*Input Contraseña*/
+
+    width: 100px;
+    height: 18px;
+    border-color: rgb(61, 95, 245);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 8px 0px 0px 20px;
+}
+
+#email{/*Input Email*/
+
+    width: 200px;
+    height: 15px;
+    border-color: rgb(61, 95, 245);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+
+#Con{/*Input confirmacion de contraseña*/
+
+    width: 130px;
+    height: 15px;
+    border-color: rgb(61, 95, 245);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 0px 0px 0px 20px;
+}
+
+#Conf{/*Input confirmacion de contraseña*/
+
+    width: 130px;
+    height: 15px;
+    border-color: rgb(61, 95, 245);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 0px 0px 20px 20px;
+}
+
+#Con,#Conf,#Cedula,#email,#Us{
+    font-size: 12px;
+}
+#Fn{
+    
+    margin: 10px 0px 20px 20px;
+    font-size: 11.5px;
+}
+
+#User,#Cel,#pass,#pass2,#Correo{
+    font-size: 12px; 
+}
+
+#boton-in{
+    position: absolute;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 3px 0px 0px 131px;
+    width: 75px;
+    height: 25px;
+    border-color: rgb(61, 95, 245);
+    border-bottom-left-radius: 20px;
+}
+
+#boton{
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 0px 0px 0px 221px;
+    width: 75px;
+    height: 25px;
+    border-color: rgb(61, 95, 245);
+    border-bottom-right-radius: 20px;
+}
+
+#error-message {/*Mensaje "Registrate ...."*/
+
+    color: red;
+    font-size: 12px;
+
+}

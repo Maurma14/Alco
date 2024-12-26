@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style-ac.css">
+    <title>Registrate.. </title>
+    <link rel="icon" type="image/png" href="./Imagenes/Alcolemia_lob (2).png">
+    <link rel="icon" type="image/x-icon" href="ruta/a/tu/favicon.ico">
+</head>
+<body>
+<center><img src="Imagenes/agregar-usuario.png" id="logo"></center>
+<h5>Registrate ahora</h5>
+    <form action="registro.php" method="post">
+    <fieldset id="se">
+
+        <legend id="Iniciar"><strong>Ingrese sus Datos</strong></legend>
+        
+        <label for="Us" id="User">Nombre de usuario</label>
+    <br>
+        <input type="text" id="Us" name="Us" required>
+    <br>
+    <table>
+    <tr>
+        <th>
+        <td>
+        <label for="Cedula" id="Cel">N° de Cedula</label>
+    <br>
+        <input type="text" id="Cedula" name="Cedula" required>
+        </td>
+        </th>
+        <th>
+        <td>
+        <label for="FdN" id="Fn">Fecha de Nacimiento</label>
+    <br>
+        <input type="date" id="FdN" name="FdN" required>
+        </td>
+        </th>
+    </tr>
+    </table>
+    <label for="email" id="Correo">Correo electronico</label>
+    <br>
+        <input type="email" id="email" name="email" required>
+    <br>
+        <label for="Con" id="pass"> Contraseña</label>
+    <br>
+        <input type="password" id="Con" name="Con" required>
+    <br>
+        <label for="Conf" id="pass2"> Confirmar contraseña</label>
+    <br>
+        <input type="password" id="Conf" name="Conf" required>
+
+        <span id="error-message" style="color: red; display: none;">Las contraseñas no coinciden</span>
+    <hr>
+        <a href="./inicio.html"><input type="button" value="Cancelar" id="boton-in"></a>
+        <a href="./Trabajo.html"><input type="submit" value="Siguiente" id="boton" ></a>
+    </hr>
+    </fieldset>
+</form>
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+        var password = document.getElementById('Con').value;
+        var confirmPassword = document.getElementById('Conf').value;
+        if (password !== confirmPassword) {
+            event.preventDefault();
+            document.getElementById('error-message').style.display = 'block';
+        }
+    });
+</script>
+
+    </body>
+</html>
